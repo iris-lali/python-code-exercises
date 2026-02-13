@@ -10,7 +10,6 @@ guesses = 0
 
 secret_number = random.randint(low, high)
 
-print(secret_number)
 
 while True:
     guess = int(input(f"Enter a number between {low} - {high} "))
